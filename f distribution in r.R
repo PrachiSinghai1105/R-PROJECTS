@@ -1,0 +1,5 @@
+rm(list=ls())
+FDIST <- function(d1,d2)
+X <- seq(0,5,by=0.01)
+BETA <- beta( d1/2,d2/2)  
+dist <- 1/BETA*(d1/d2)^((d1)/2)*x^((d1/2)-1)*(1+d1x/d2)^(-(d1+d2)/2)
